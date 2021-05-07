@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 5px;
+}
+header{
+    height: 50px;
+    background-color: rgba(165, 42, 42, 0.5);
+    padding-top: 15px;    
+}
+nav{
+    height: 50px;
+    background-color: cadetblue;
+    padding-top: 15px;
+}
+aside{
+    height: 450px;
+    width: 300px;
+    background-color: cornsilk;
+    float: left;
+}
+article{
+    height: 225px;
+    background-color: rgba(144, 238, 144, 0.5);
+    float: left;
+    border: 1px solid black;
+    width: 698px;
+}
+footer{
+    background-color: indianred;
+    height: 50px;
+    clear: both;
+    width: 998px;
+}

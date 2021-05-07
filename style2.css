@@ -1,0 +1,11 @@
+.container{
+    column-count: 6;
+    column-rule:1px solid blueviolet ;
+    column-gap: 90px;
+    text-align: justify;
+}
+h1{
+    column-span: all;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
